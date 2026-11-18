@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdeaGrid — Curate & Discover Visual Inspiration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Search -->
+  <header class="navbar">
+    <a href="#" class="brand">
+      <span class="brand-icon">IG</span>
+      <span class="brand-name">IdeaGrid</span>
+    </a>
+    <input type="text" class="search-bar" placeholder="Search recipes, architecture, style, design...">
+    <div class="nav-actions">
+      <a href="#explore-grid" class="nav-btn">Explore</a>
+      <a href="#footer" class="nav-btn">About</a>
+    </div>
+  </header>
+
+  <!-- Cover / Hero Banner -->
+  <section class="hero-banner">
+    <div class="hero-overlay">
+      <span class="hero-badge">Curated Visual Discovery</span>
+      <h1>Find Your Next Big Idea</h1>
+      <p>Explore architecture, holiday recipes, typography, and modern lifestyle inspiration in a dynamic masonry grid.</p>
+      <a href="#explore-grid" class="hero-cta">Explore the Grid</a>
+    </div>
+  </section>
+
+  <!-- Category Filter Pills -->
+  <nav id="explore-grid" class="category-bar">
+    <a href="#explore-grid" class="pill active">All Ideas</a>
+    <a href="#explore-grid" class="pill">Food & Drinks</a>
+    <a href="#explore-grid" class="pill">Beauty & Style</a>
+    <a href="#explore-grid" class="pill">Architecture</a>
+    <a href="#explore-grid" class="pill">Typography</a>
+    <a href="#explore-grid" class="pill">Illustration</a>
+  </nav>
+
+  <!-- Dynamic Masonry Grid (9 Pins) -->
+  <main class="masonry-grid">
+
+    <!-- Card 1: Cookies -->
+    <article class="pin-card">
+      <a href="#pin-1" class="pin-link">
+        <div class="image-wrapper">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShwFYaL-uQdMrXNyplbGVCI--13x8INHDrBNn6m2cq7Q&s=10" alt="Cookies to Bake This Holiday Season">
+          <div class="pin-overlay">
+            <span class="save-badge">Save Idea</span>
+            <span class="zoom-hint">Click to expand</span>
+          </div>
+        </div>
+      </a>
+      <div class="pin-meta">
+        <h3 class="pin-title">Cookies to Bake This Holiday Season</h3>
+        <span class="pin-tag">Food & Baking</span>
+      </div>
+    </article>
+
+    
